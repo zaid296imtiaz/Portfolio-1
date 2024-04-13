@@ -11,7 +11,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const Layout = () => {
   const { scrollY } = useScroll();
 
-  const documentHeight = document.documentElement.scrollHeight;
+  // const documentHeight = document.documentElement.scrollHeight;
 
   return (
     <div className="min-h-screen ">
@@ -25,11 +25,11 @@ const Layout = () => {
 
       <motion.div
         className="relative w-screen"
-        style={{
-          y: useTransform(scrollY, [0, 1000], [0, documentHeight], {
-            clamp: false,
-          }),
-        }}
+        // style={{
+        //   y: useTransform(scrollY, [0, 1000], [0, documentHeight], {
+        //     clamp: false,
+        //   }),
+        // }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
