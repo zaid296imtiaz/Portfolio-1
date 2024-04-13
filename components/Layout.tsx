@@ -8,7 +8,7 @@ import Personal from "@/components/Personal";
 import Hero from "@/components/Hero";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-export default function Layout() {
+const Layout = () => {
   const { scrollY } = useScroll();
 
   const documentHeight = document.documentElement.scrollHeight;
@@ -43,3 +43,5 @@ export default function Layout() {
     </div>
   );
 }
+
+export default Layout;
