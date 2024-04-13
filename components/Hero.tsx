@@ -4,191 +4,108 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    name: "Soulmates",
-    description: " A Soulbound Token (SBT) issuance engine, built on FEVM.",
+    name: "Vibely",
+    description: "Open-source CRM solution",
     stack:
-      "Soulmates is built with Next.js, TailwindCSS, Filecoin Virtual Machine SDK, various smart contracts.",
+      "Designed to enhance your business relationships, streamline processes, and improve profitability",
     badges: [
       {
-        name: "Hackathon Grand Prize Winner",
+        name: "Refine",
       },
       {
-        name: "Next.js",
+        name: "TypeScript",
       },
       {
-        name: "TailwindCSS",
+        name: "GraphQL",
       },
       {
-        name: "Filecoin Virtual Machine SDK",
+        name: "Codegen",
       },
       {
         name: "Vercel",
       },
       {
-        name: "Front End Developer",
+        name: "Vite",
       },
     ],
-    link: "https://ethglobal.com/showcase/soulmates-wveqg",
-    github: "https://github.com/rohanagarwal/hack-fevm-submission",
+    link: "https://vibely-black.vercel.app/",
+    github: "https://github.com/zaid296imtiaz/Vibely",
     carousel: [
       {
-        image: "/soulmates.png",
+        image: "/vibely1.png",
       },
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fwveqg%2Fimages%2FScreen%20Shot%202022-11-20%20at%2011.43.33%20AM.png",
+          "/vibely2.png",
       },
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fwveqg%2Fimages%2FScreen%20Shot%202022-11-20%20at%2011.44.25%20AM.png",
+          "/vibely3.png",
       },
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fwveqg%2Fimages%2FScreen%20Shot%202022-11-20%20at%2011.44.45%20AM.png",
+          "/vibely4.png",
       },
     ],
   },
   {
-    name: "MovieGPT",
-    description: "An AI Movie Recommender",
+    name: "Travel Advisor",
+    description: "Single-Page React App",
     stack:
-      "MovieGPT is built with Next.js, TailwindCSS, OpenAI API, and Vercel Edge Functions.",
+      "Designed to help you to discover places to eat and explore",
     badges: [
       {
-        name: "Next.js",
+        name: "React.js",
       },
       {
-        name: "TailwindCSS",
+        name: "Material UI",
       },
       {
-        name: "OpenAI API",
+        name: "Rest API",
       },
       {
-        name: "Vercel Edge Functions + Deploy",
-      },
-    ],
-    link: "https://moviegpt.vercel.app/",
-    github: "https://github.com/chrisabdo/moviegpt",
-    carousel: [
-      {
-        image:
-          "https://pbs.twimg.com/media/FjlPDiJWAAEBVK-?format=jpg&name=large",
-      },
-      {
-        image:
-          "https://pbs.twimg.com/media/FjlPDiIWYAENHT6?format=jpg&name=large",
-      },
-      {
-        image:
-          "https://pbs.twimg.com/media/FjlPDiKXEAAYnEc?format=jpg&name=large",
-      },
-      {
-        image:
-          "https://pbs.twimg.com/media/FjlPDiGXwAE5Tai?format=jpg&name=large",
-      },
-      {
-        image:
-          "https://pbs.twimg.com/media/FjZqb62XEAoVS3M?format=jpg&name=large",
-      },
-    ],
-  },
-  {
-    name: "Etherwav",
-    description: "A Community Driven Web3 Radio",
-    stack:
-      "Etherwav is built with Next.js, TailwindCSS, Web3, and various smart contracts.",
-    badges: [
-      {
-        name: "Next.js",
-      },
-      {
-        name: "TailwindCSS",
-      },
-      {
-        name: "Ethers",
-      },
-      {
-        name: "ThirdWeb",
-      },
-      {
-        name: "RadixUI / @shadcn",
+        name: "Google Maps",
       },
       {
         name: "Vercel",
       },
     ],
-    link: "https://etherwav-1.vercel.app/",
-    github: "https://github.com/chrisabdo/etherwav-radix-v2",
-    carousel: [
-      {
-        image: "/etherwav.jpeg",
-      },
-      {
-        image: "/etherwav2.jpeg",
-      },
-      {
-        image: "/etherwav3.jpeg",
-      },
-    ],
-  },
-
-  {
-    name: "DeStemr",
-    description: "A Decentralized music NFT marketplace for stems",
-    stack:
-      "DeStemr is built with Next.js, TailwindCSS, Web3, and various smart contracts.",
-    badges: [
-      {
-        name: "Next.js",
-      },
-      {
-        name: "TailwindCSS",
-      },
-      {
-        name: "Ethers",
-      },
-      {
-        name: "Vercel",
-      },
-      {
-        name: "Truffle",
-      },
-      {
-        name: "Solidity",
-      },
-    ],
-    link: "https://ethglobal.com/showcase/destemr-y5mw7",
-    github: "https://github.com/ChrisAbdo/ETH-SF-DeStemr",
+    link: "https://travel-advisor-flame.vercel.app/",
+    github: "https://github.com/zaid296imtiaz/travel_advisor",
     carousel: [
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fy5mw7%2Fimages%2Fimage_2022-11-05_233311822.png",
+          "/ta1.png",
       },
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fy5mw7%2Fimages%2Fimage_2022-11-05_233326750.png",
+          "/ta2.png",
       },
       {
         image:
-          "https://storage.googleapis.com/ethglobal-api-production/projects%2Fy5mw7%2Fimages%2Fimage_2022-11-05_233340316.png",
+          "/ta3.png",
       },
+      // {
+      //   image:
+      //     "/ta4.png",
+      // }
     ],
-  },
+  }
 ];
 
 export default function Hero() {
   return (
     <div className="min-h-screen">
       {/* Welcome Card */}
-      <div className="bg-[#111] bg-opacity-80 backdrop-blur-xl py-6 sm:py-12 rounded-3xl">
+      <div className="bg-[#000] bg-opacity-10 backdrop-blur-xl py-6 sm:py-12 rounded-3xl">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <p className="text-base font-semibold leading-7 text-[#999]">
               Hello there! ☻
             </p>
             <h2 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              I&apos;m Chris Abdo, a Full Stack Developer focusing in Web3 and
-              AI.
+              I&apos;m Zaid, a Software Engineer focusing on Web and
+              Mobile development
             </h2>
           </div>
         </div>
@@ -377,18 +294,18 @@ export default function Hero() {
       {/* Projects Selection Section */}
       <div
         id="#projects"
-        className="bg-[#111] bg-opacity-80 backdrop-blur-xl py-6 sm:py-12 rounded-3xl mt-2"
+        className="bg-[#000] bg-opacity-80 backdrop-blur-xl py-6 sm:py-12 rounded-3xl mt-2"
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <p className="text-base font-semibold leading-7 text-[#999]">
-              2021-2023
+              2024
             </p>
             <h2 className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-4xl">
               Project Selection
             </h2>
             <p className="mt-3 text-lg text-gray-300">
-              Here are some of my favorite projects I&apos;ve worked on.
+              Here are some of the projects I&apos;ve worked on recently
             </p>
           </div>
         </div>
@@ -535,7 +452,7 @@ export default function Hero() {
           </div>
           <div className="bg-[#111] bg-opacity-80 backdrop-blur-xl py-6 sm:py-12 rounded-3xl mt-2">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="scrollbar-hide mt-14 flex w-full snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10">
+              <div className="scrollbar-hide mt-5 mb-10 flex w-full snap-x snap-mandatory scroll-px-10 gap-10 overflow-x-scroll scroll-smooth px-10">
                 {project.carousel.map((image, index) => (
                   <div
                     key={index}

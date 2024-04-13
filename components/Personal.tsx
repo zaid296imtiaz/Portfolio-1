@@ -5,10 +5,10 @@ export default function Personal() {
   return (
     <div className="flex space-x-24">
       <Link href="/" className="text-xl text-[#999] pt-2 mb-2 ml-2">
-        Chris Abdo
+        Zaid Imtiaz Chughtai
       </Link>
       <h2 className="text-xl text-[#999] pt-2 mb-2 ml-2 hidden lg:flex">
-        Full Stack Developer
+        Software Engineer | Front End Developer
       </h2>
     </div>
   );
