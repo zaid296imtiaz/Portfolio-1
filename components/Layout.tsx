@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import NavLinks from "@/components/NavLinks";
 import Header from "@/components/Header";
@@ -10,11 +10,16 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const Layout = () => {
   const { scrollY } = useScroll();
+  const [documentHeight, setDocumentHeight] = useState(0);
 
-  const documentHeight = document?.documentElement.scrollHeight;
+  useEffect(() => {
+    // This code will now only run on the client-side
+    const height = document.documentElement.scrollHeight;
+    setDocumentHeight(height);
+  }, []); // Empty dependency array ensures this runs once on mount
 
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen">
       <div className="flex justify-between">
         <Personal />
         <div className="space-x-2 mb-2 pt-2 mr-2">
@@ -26,7 +31,7 @@ const Layout = () => {
       <motion.div
         className="relative w-screen"
         style={{
-          y: useTransform(scrollY, [0, 1000], [0, documentHeight], {
+          y: useTransform(scrollY, [0, 3500], [0, documentHeight], {
             clamp: false,
           }),
         }}
